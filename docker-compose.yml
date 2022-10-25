@@ -1,0 +1,18 @@
+version: '3'
+services:
+  strapi:
+    build: .
+    container_name: strapi
+    deploy:
+      resources:
+        limits:
+          memory: 4096m
+    environment:
+      STRAPI_TELEMETRY_DISABLED: 'true'
+    volumes:
+      - ./config:/opt/app/config # config files
+      - ./database:/opt/app/database
+      - ./db:/opt/app/db # database file
+      - ./public:/opt/app/public # public content in media library
+      - ./src:/opt/app/src # created content
+
