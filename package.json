@@ -18,10 +18,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.4.7",
-    "@strapi/plugin-users-permissions": "4.4.7",
-    "@strapi/plugin-i18n": "4.4.7",
-    "better-sqlite3": "7.4.6"
+    "@strapi/strapi": "4.5.0",
+    "@strapi/plugin-users-permissions": "4.5.0",
+    "@strapi/plugin-i18n": "4.5.0",
+    "better-sqlite3": "7.6.2"
   },
   "strapi": {
     "uuid": "9f2983b7-eef3-4d6a-8d2b-63ba5612f38f"
